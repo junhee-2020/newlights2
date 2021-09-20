@@ -5,7 +5,7 @@
             <div class="menu-bar-item"><router-link to="/NewLightNewsView">교회 소식</router-link></div>
             <div class="menu-bar-item"><router-link to="/WorshipGuideView">예배 시간</router-link></div>
             <div class="menu-bar-item"><router-link to="/GalleryView">새빛 사진</router-link></div>
-            <div class="menu-bar-item"><router-link to="/WayToComeView">오시는길</router-link></div>            
+            <div class="menu-bar-item"><router-link to="/WayToComeView">오시는길</router-link></div>
         </div>
   </div>  
 </template>

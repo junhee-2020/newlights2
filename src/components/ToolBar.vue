@@ -30,8 +30,8 @@ export default {
 
 <style scoped>
 	
-.logo-img {
-    width: 200px;
+.logo-img {    
+    height: 13vh;
     object-fit: cover;
     display: flex;
     justify-content: center;
@@ -53,8 +53,14 @@ export default {
 .header {    
     display: flex;
     justify-content: space-between;
-    margin: 1rem;
+    align-items: center;
+    margin: 0;
     padding: 0;
+    width: 100vw;
+    height: 15vh;
+    position: fixed;
+    top:0;
+    background-color: white;
 }
 
 .left-side {
@@ -65,6 +71,7 @@ export default {
 .right-side {
     display: flex;    
     align-items: center;
+    margin: 0 1.5rem;
 }
 
 .toolbar-menu {

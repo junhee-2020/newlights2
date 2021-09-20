@@ -3,8 +3,7 @@
     <tool-bar v-if="!isMobile"/>
     <mobile-tool-bar v-else/>
     <transition name="page">
-      <router-view v-if="!isMobile"/>
-      <router-view class="mobile-router-view" v-else/>
+      <router-view class="router-view"/>      
     </transition>
     <spinner :loading="loadingStatus"></spinner>
   </div>
@@ -86,7 +85,7 @@ a.router-link-exact-active {
   text-decoration: underline;
 }
 
-.mobile-router-view {
+.router-view {
   margin-top: 15vh;
 }
 

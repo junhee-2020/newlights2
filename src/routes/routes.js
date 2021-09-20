@@ -3,6 +3,7 @@ import bus from '../utils/bus.js';
 import { store } from '../store/index.js';
 import GalleryView from '../views/GalleryView.vue';
 import MainView from '../views/MainView.vue';
+import MobileMainView from '../views/MobileMainView.vue';
 import MenuPopupView from '../components/MenuPopupView.vue';
 
 const routes= [
@@ -14,6 +15,21 @@ const routes= [
         path: '/MenuPopupView',
         name: 'MenuPopupView',
         component: MenuPopupView
+    },
+    {
+        path: '/MobileMainView',
+        name: 'MobileMainView',
+        component: MobileMainView,
+        beforeEnter: (to, from, next) => {
+            bus.$emit('start:spinner');
+            store.dispatch('FETCH_LIST', 'NewLightNewsView')
+                .then(() => {
+                    next();
+                })
+                .catch(err => {
+                    console.error(err);
+                });
+          }
     },
     {
         path: '/MainView',

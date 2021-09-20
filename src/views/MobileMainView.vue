@@ -49,7 +49,7 @@ export default {
         justify-content: center;
         align-items: center;
     }
-    
+
     .video-view-title{
         margin: 1rem;        
         font-size: 2rem;
@@ -70,13 +70,13 @@ export default {
         display: flex;
         justify-content: center;
         align-items: center;
-        text-align: center;
+        text-align: center;        
     }
 
     .pic-view img {
         margin: 0.1rem;
         width: 22vw;
-        height: 20vh;
+        height: 10vh;
         border-radius: 1rem;
     }
 

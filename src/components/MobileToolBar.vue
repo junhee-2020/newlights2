@@ -6,7 +6,7 @@
             </router-link>
         </div>
         <div class="logo">
-            <router-link class="toolbar-menu" to="/">
+            <router-link class="toolbar-menu" to="/MobileMainView">
                 <img class="logo-icon" src="../assets/logo_gray.png" alt="logo">
             </router-link>
         </div>
@@ -26,8 +26,7 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style scoped>    
     .header {    
         display: flex;
         justify-content: space-between;
@@ -35,7 +34,7 @@ export default {
         margin: 0;
         padding: 0;
         width: 100vw;
-        height: 15vh;        
+        height: 15vh;
         position: fixed;
         top:0;
         background-color: white;
@@ -45,11 +44,15 @@ export default {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin: 0 1rem;
+    }
+
+    .right-side {
+        margin: 0 1rem;
     }
 
     .menu-icon{
         width: 50px;        
-        margin-left: 0.5rem;
     }
 
     .logo {
@@ -73,5 +76,4 @@ export default {
         margin-left: 0.5rem;
         margin-right: 0.5rem;
     }
-
 </style>

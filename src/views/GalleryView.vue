@@ -1,5 +1,6 @@
 <template>
   <div>
+    <div class="gallery-title">[우리는 새빛]</div>
     <gallery :images="images" :index="index" @close="index = null"></gallery>
     <div
       class="image"
@@ -77,6 +78,15 @@
 </script> 
 
 <style scoped>
+  
+  .gallery-title{
+    margin: 1rem;        
+    font-size: 2rem;
+    font-weight: 600;
+    text-decoration: underline;
+    text-align: center;  
+  }
+
   .image {
     float: left;    
     background-size: cover;
