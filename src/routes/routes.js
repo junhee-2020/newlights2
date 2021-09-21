@@ -6,6 +6,7 @@ import MobileGalleryView from '../views/MobileGalleryView.vue';
 import MainView from '../views/MainView.vue';
 import MobileMainView from '../views/MobileMainView.vue';
 import MenuPopupView from '../components/MenuPopupView.vue';
+import WayToComeView from '../views/WayToComeView.vue';
 
 const routes= [
     {
@@ -113,10 +114,10 @@ const routes= [
     {
         path: '/WayToComeView',
         name: 'WayToComeView',
-        component: CreateListView('WayToComeView'),
+        component: WayToComeView,
         beforeEnter: (to, from, next) => {
           bus.$emit('start:spinner');
-          store.dispatch('FETCH_LIST', to.name)
+          store.dispatch('FETCH_LIST', 'WayToComeView')
               .then(() => {
                   next();
               })

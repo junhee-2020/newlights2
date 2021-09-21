@@ -59,9 +59,16 @@ export default {
 
 <style>
 
+@font-face {
+  font-family: "NanumBarunGothic";
+  src: local("NanumBarunGothic"),
+   url(./fonts/NanumBarunGothic/NanumBarunGothic.ttf) format("truetype");
+}
+
 body {
   padding: 0;
   margin: 0;
+  font-family: 'NanumBarunGothic';  
 }
 
 .page-enter-active, .page-leave-active {

@@ -50,7 +50,7 @@
             if (entry.isIntersecting) {
               const image = entry.target;
               image.classList.remove("lazy");
-              imageObserver.unobserve(image);
+              imageObserver.unobserve(image);              
             }
           });
         });
@@ -108,11 +108,17 @@
     border: 1px solid #ebebeb;
     margin: 5px; 
     border-radius: 1rem;   
+    
   }
 
   .lazy {
      background-image: none !important;    
-     background-color: #F1F1FA;      
+     background-color: #F1F1FA;
   }
 
+  .lazy::after {
+    content: "Loading...💕";
+    font-size: 3rem;
+    color: #34495e;
+  }
 </style> 

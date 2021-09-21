@@ -108,11 +108,17 @@
     border: 1px solid #ebebeb;
     margin: 5px; 
     border-radius: 1rem;   
+    transition: .2s ease-in;   
   }
 
   .lazy {
      background-image: none !important;    
-     background-color: #F1F1FA;      
+     background-color: #F1F1FA;     
   }
 
+  .lazy::after {
+    content: "Loading...💕";
+    font-size: 2rem;
+    color: #34495e;
+  }
 </style> 
