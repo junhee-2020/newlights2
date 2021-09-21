@@ -2,6 +2,7 @@ import CreateListView from '../views/CreateListView.js';
 import bus from '../utils/bus.js';
 import { store } from '../store/index.js';
 import GalleryView from '../views/GalleryView.vue';
+import MobileGalleryView from '../views/MobileGalleryView.vue';
 import MainView from '../views/MainView.vue';
 import MobileMainView from '../views/MobileMainView.vue';
 import MenuPopupView from '../components/MenuPopupView.vue';
@@ -50,6 +51,15 @@ const routes= [
         path: '/GalleryView',
         name: 'GalleryView',
         component: GalleryView,
+        beforeEnter: (to, from, next) => {
+            bus.$emit('start:spinner');
+            next();            
+          }
+    },
+    {
+        path: '/MobileGalleryView',
+        name: 'MobileGalleryView',
+        component: MobileGalleryView,
         beforeEnter: (to, from, next) => {
             bus.$emit('start:spinner');
             next();            

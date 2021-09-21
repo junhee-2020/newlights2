@@ -86,7 +86,7 @@ a.router-link-exact-active {
 }
 
 .router-view {
-  margin-top: 15vh;
+  margin-top: 16vh;
 }
 
 </style>

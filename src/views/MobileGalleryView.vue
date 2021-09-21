@@ -7,7 +7,7 @@
       v-for="(image, imageIndex) in images"
       :key="imageIndex"
       @click="index = imageIndex"      
-      :style="{ backgroundImage: 'url(' + image + ')', width: '22vw', height: '22vw' }"      
+      :style="{ backgroundImage: 'url(' + image + ')', width: '45vw', height: '45vw' }"      
     ></div>
   </div>
 </template>

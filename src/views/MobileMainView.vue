@@ -42,6 +42,7 @@ export default {
     iframe {
         width: 90vw;
         height: 50vh;
+        border-radius: 1rem;
     }
 
     .video-view {
