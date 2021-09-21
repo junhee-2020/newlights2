@@ -49,6 +49,9 @@ export default {
 
     .right-side {
         margin: 0 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .menu-icon{
@@ -63,17 +66,16 @@ export default {
 
     .logo-icon{
         width: 100px;        
-        border-radius: 1.5rem;
+        border-radius: 1.5rem;        
+        margin-left: 0.2rem;
     }
 
     .youtube-icon {
-        width: 25px;
-        margin-right: 0.5rem;
+        width: 25px;        
+        margin-right: 0.2rem;
     }
 
     .admin-icon {
-        width: 25px;
-        margin-left: 0.5rem;
-        margin-right: 0.5rem;
+        width: 25px;        
     }
 </style>

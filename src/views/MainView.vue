@@ -5,7 +5,7 @@
             <iframe src="https://www.youtube.com/embed/videoseries?list=PL03nHHWQGFZ-JazgO1Pygs863HMolWhWz" title="새빛교회 온라인예배" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
         </div>        
         <div class="pic-view-title">사역 사진</div>
-        <div class="pic-view">                          
+        <div class="pic-view"> 
             <router-link to="/GalleryView">
                 <img src="http://www.newlights.net/bbs/data/gallery_newlights/1627718947/IMG_4739.JPG" alt="gallery" />
             </router-link>                          

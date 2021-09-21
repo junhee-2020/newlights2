@@ -69,14 +69,15 @@ export default {
     .pic-view {
         display: flex;
         justify-content: center;
+        flex-direction: column;
         align-items: center;
         text-align: center;        
     }
 
     .pic-view img {
         margin: 0.1rem;
-        width: 22vw;
-        height: 10vh;
+        width: 90vw;
+        height: 30vh;
         border-radius: 1rem;
     }
 

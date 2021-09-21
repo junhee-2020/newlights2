@@ -49,7 +49,11 @@ const routes= [
     {
         path: '/GalleryView',
         name: 'GalleryView',
-        component: GalleryView
+        component: GalleryView,
+        beforeEnter: (to, from, next) => {
+            bus.$emit('start:spinner');
+            next();            
+          }
     },
     {
         path: '/AboutChurchView',
