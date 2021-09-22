@@ -1,4 +1,4 @@
-# vue-news
+# newlights2
 
 ## Project setup
 ```
