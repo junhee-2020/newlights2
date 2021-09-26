@@ -1,4 +1,16 @@
 export const images = [
+
+'http://www.newlights.net/bbs/data/gallery/KakaoTalk_20210925_210020195.jpg',
+'http://www.newlights.net/bbs/data/gallery/KakaoTalk_20210925_210020195_01.jpg',
+'http://www.newlights.net/bbs/data/gallery/KakaoTalk_20210925_210020195_02.jpg',
+'http://www.newlights.net/bbs/data/gallery/KakaoTalk_20210925_210020195_03.jpg',
+'http://www.newlights.net/bbs/data/gallery/KakaoTalk_20210925_210020195_04.jpg',
+'http://www.newlights.net/bbs/data/gallery/KakaoTalk_20210925_210020195_05.jpg',
+'http://www.newlights.net/bbs/data/gallery/KakaoTalk_20210925_210020195_07.jpg',
+'http://www.newlights.net/bbs/data/gallery/KakaoTalk_20210925_210020195_08.jpg',
+'http://www.newlights.net/bbs/data/gallery/KakaoTalk_20210925_210020195_09.jpg',
+'http://www.newlights.net/bbs/data/gallery/KakaoTalk_20210925_210020195_10.jpg',
+'http://www.newlights.net/bbs/data/gallery/KakaoTalk_20210925_210020195_11.jpg',
 'http://www.newlights.net/bbs/data/gallery_chungnyun/1627718606/100.JPG',
 'http://www.newlights.net/bbs/data/gallery_chungnyun/1627718606/1.JPG',
 'http://www.newlights.net/bbs/data/gallery_chungnyun/1627718606/1wh3.JPG',

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="gallery-title"><a href="http://www.newlights.net/bbs/zboard.php?id=gallery" target="_blank">[우리는 새빛]</a></div>
+    <div class="gallery-title"><a href="http://www.newlights.net/bbs/zboard.php?id=gallery" alt="새빛교회갤러리" target="_blank">[우리는 새빛]</a></div>
     <gallery :images="images" :index="index" @close="index = null"></gallery>
     <div
       class="image lazy"
