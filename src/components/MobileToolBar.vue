@@ -71,11 +71,11 @@ export default {
     }
 
     .youtube-icon {
-        width: 25px;        
-        margin-right: 0.2rem;
+        width: 30px;        
+        margin-right: 1rem;
     }
 
     .admin-icon {
-        width: 25px;        
+        width: 30px;        
     }
 </style>

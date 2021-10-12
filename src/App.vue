@@ -36,7 +36,7 @@ export default {
       this.loadingStatus = false;
     },
     onResize () {
-      this.isMobile = window.innerWidth < 1060;
+      this.isMobile = window.innerWidth < 960;
     }
   },
   created() {
