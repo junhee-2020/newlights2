@@ -39,9 +39,9 @@ export default {
 </script>
 
 <style scoped>
-.item-list {
-  margin: 0;
-  padding: 0;
+.item-list {    
+    margin: 0;
+    padding: 0;
 }
 
 .post {

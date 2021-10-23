@@ -36,7 +36,7 @@ export default {
       this.loadingStatus = false;
     },
     onResize () {
-      this.isMobile = window.innerWidth < 960;
+      this.isMobile = window.innerWidth < 1280;
     }
   },
   created() {
@@ -45,7 +45,7 @@ export default {
   },
   mounted() {
     this.onResize()
-    window.addEventListener('resize', this.onResize, { passive: true });    
+    window.addEventListener('resize', this.onResize, { passive: true });
   },
   beforeDestroy() {
     bus.$off('start:spinner');
@@ -84,12 +84,12 @@ a {
 }
 
 a:hover {
-  color: #8ba2b9;
-  text-decoration: underline;
+  color: #8c99ee;
+  opacity: .9;  
 }
 
 a.router-link-exact-active {
-  text-decoration: underline;
+  color: #8c99ee;  
 }
 
 .router-view {
