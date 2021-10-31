@@ -6,16 +6,16 @@
         </div>        
         <div class="pic-view-title">사역 사진</div>
         <div class="pic-view">                          
-            <router-link to="/MobileGalleryView">
+            <router-link to="/PictureView">
                 <img src="http://www.newlights.net/bbs/data/gallery_newlights/1627718947/IMG_4739.JPG" alt="gallery" />
             </router-link>                          
-            <router-link to="/MobileGalleryView">
+            <router-link to="/PictureView">
                 <img src="http://www.newlights.net/bbs/data/gallery/photo36.jpg" alt="gallery" />
             </router-link>                                          
-            <router-link to="/MobileGalleryView">
+            <router-link to="/PictureView">
                 <img src="http://www.newlights.net/bbs/data/gallery_chungnyun/1627718811/1.JPG" alt="gallery" />
             </router-link>                          
-            <router-link to="/MobileGalleryView">
+            <router-link to="/PictureView">
                 <img src="http://www.newlights.net/bbs/data/gallery/2018/07/30/14369067735b5e9bf18d60f.JPG" alt="gallery" />
             </router-link>            
         </div>   

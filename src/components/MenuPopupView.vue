@@ -5,7 +5,7 @@
             <div class="menu-bar-item"><router-link to="/WayToComeView">오시는길</router-link></div>
             <div class="menu-bar-item"><router-link to="/NewLightNewsView">교회 소식</router-link></div>                       
             <div class="menu-bar-item"><router-link to="/WorshipGuideView">제자 훈련</router-link></div>
-            <div class="menu-bar-item"><router-link to="/MobileGalleryView">새빛 사진</router-link></div>
+            <div class="menu-bar-item"><router-link to="/PictureView/a">새빛 사진</router-link></div>
             <div class="menu-bar-item">
                 <a class="toolbar-menu" href="https://www.youtube.com/channel/UC_8Ly-tOUYDeuL85hB6TpEQ" target="_blank">온라인 예배</a>
             </div>

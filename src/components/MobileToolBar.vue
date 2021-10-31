@@ -6,7 +6,7 @@
             </router-link>
         </div>
         <div class="logo">
-            <router-link class="toolbar-menu" to="/MobileMainView">
+            <router-link class="toolbar-menu" to="/">
                 <img class="logo-icon" src="../assets/logo_gray.png" alt="logo">
             </router-link>
         </div>
@@ -14,7 +14,7 @@
             <a href="https://www.youtube.com/channel/UC_8Ly-tOUYDeuL85hB6TpEQ" target="_blank">
                 <img class="youtube-icon" src="../assets/youtube.png" alt="online-worship">
             </a>
-            <a href="http://www.newlights.net/bbs/admin.php" target="_blank">
+            <a href="http://www.newlights.net/login.html" target="_self">
                 <img class="admin-icon" src="../assets/admin.png" alt="admin">
             </a>
         </div>        

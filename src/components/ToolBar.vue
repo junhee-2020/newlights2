@@ -9,9 +9,9 @@
                 <router-link class="toolbar-menu" to="/WayToComeView">오시는길</router-link>                
                 <router-link class="toolbar-menu" to="/NewLightNewsView">교회소식</router-link>                
                 <router-link class="toolbar-menu" to="/WorshipGuideView">제자훈련</router-link>
-                <router-link class="toolbar-menu" to="/GalleryView">새빛사진</router-link>                                        
+                <router-link class="toolbar-menu" to="/PictureView/a">새빛사진</router-link>                                        
                 <a class="toolbar-menu" href="https://www.youtube.com/channel/UC_8Ly-tOUYDeuL85hB6TpEQ" target="_blank">온라인 예배</a>
-                <a href="http://www.newlights.net/login.html" target="_blank">
+                <a href="http://www.newlights.net/login.html" target="_self">
                     <img class="admin-icon" src="../assets/admin.png" alt="admin">
                 </a>
             </div>

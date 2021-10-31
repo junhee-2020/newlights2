@@ -3,7 +3,7 @@
     <tool-bar v-if="!isMobile"/>
     <mobile-tool-bar v-else/>
     <transition name="page">
-      <router-view class="router-view"/>      
+      <router-view class="router-view" :isMobile="isMobile" />      
     </transition>
     <spinner :loading="loadingStatus"></spinner>
   </div>
@@ -44,7 +44,7 @@ export default {
     bus.$on('end:spinner', this.endSpinner);
   },
   mounted() {
-    this.onResize()
+    this.onResize();
     window.addEventListener('resize', this.onResize, { passive: true });
   },
   beforeDestroy() {
