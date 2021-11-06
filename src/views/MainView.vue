@@ -105,7 +105,7 @@
                                 <div>
                                     <!-- 타이틀 영역 -->
                                     <p class="item-title">
-                                        유초등부 예배
+                                        중고청 젊은 예배
                                     </p>
                                     <div>    
                                         <small class="sub-text">
@@ -119,29 +119,30 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="post">
-                                <!-- 인덱스 영역 -->
-                                <div class="key">
-                                    {{ }}
-                                </div>
+                            <li class="post-center">
                                 <!-- 기타 정보 영역 -->
                                 <div>
                                     <!-- 타이틀 영역 -->
-                                    <p class="item-title">
+                                    <p class="item-title2">
                                         * 예배 시간 변경 안내
                                     </p>
                                     <div>    
-                                        <small class="sub-text">
-                                            <span>코로나19로 인해 오프라인 예배는 정부 규정에 따라 인원수에 맞춰 드려집니다.</span>                            
+                                        <small class="sub-text-small">
+                                            <span>코로나19로 오프라인 예배는 정부 규정에 따라 인원수에 맞춰 드려집니다.</span>                            
                                         </small>                      
                                     </div>
                                     <div>    
-                                        <small class="sub-text">
-                                            <span>온라인 예배 : 유튜브 "새빛 교회" 검색 어린이 예배 아침 9시, 대예배 오전 11시 실시간 온라인 예배</span>                            
+                                        <small class="sub-text-underline">
+                                            <span>온라인 예배 : 유튜브 "새빛 교회" 검색</span>                            
                                         </small>                      
                                     </div>
                                     <div>    
-                                        <small class="sub-text">
+                                        <small class="sub-text-small">
+                                            <span>(어린이 예배 아침 9시, 대예배 오전 11시 실시간 온라인 예배)</span>                            
+                                        </small>                      
+                                    </div>
+                                    <div>    
+                                        <small class="sub-text2">
                                             <span>당분간 새벽 예배, 수요 예배는 집에서 각자 드리시기 바랍니다.</span>                            
                                         </small>                      
                                     </div>
@@ -423,29 +424,30 @@
                 <div class="news-contents">
                     <div>
                         <ul class="last-item-list">
-                            <li class="post">
-                                <!-- 인덱스 영역 -->
-                                <div class="key">
-                                    {{ }}
-                                </div>
+                            <li class="post-center">
                                 <!-- 기타 정보 영역 -->
                                 <div>
                                     <!-- 타이틀 영역 -->
-                                    <p class="item-title">
+                                    <p class="item-title2">
                                         * 예배 시간 변경 안내
                                     </p>
                                     <div>    
-                                        <small class="sub-text">
-                                            <span>코로나19로 인해 오프라인 예배는 정부 규정에 따라 인원수에 맞춰 드려집니다.</span>                            
+                                        <small class="sub-text2">
+                                            <span>코로나19로 오프라인 예배는 정부 규정에 따라 인원수에 맞춰 드려집니다.</span>                            
                                         </small>                      
                                     </div>
                                     <div>    
-                                        <small class="sub-text">
-                                            <span>온라인 예배 : 유튜브 "새빛 교회" 검색 어린이 예배 아침 9시, 대예배 오전 11시 실시간 온라인 예배</span>                            
+                                        <small class="sub-text-underline">
+                                            <span>온라인 예배 : 유튜브 "새빛 교회" 검색</span>                            
                                         </small>                      
                                     </div>
                                     <div>    
-                                        <small class="sub-text">
+                                        <small class="sub-text-small">
+                                            <span>(어린이 예배 아침 9시, 대예배 오전 11시 실시간 온라인 예배)</span>                            
+                                        </small>                      
+                                    </div>
+                                    <div>    
+                                        <small class="sub-text2">
                                             <span>당분간 새벽 예배, 수요 예배는 집에서 각자 드리시기 바랍니다.</span>                            
                                         </small>                      
                                     </div>
@@ -454,13 +456,13 @@
                         </ul>        
                     </div>
                 </div>
-            </div>            
+            </div>
         </div>  
     </div>          
 </template>
 
 <script>
-export default {    
+export default {
     props: {
         isMobile: {
             type: Boolean,
@@ -554,6 +556,20 @@ export default {
         background-color: #eee;    
     }
 
+    .post-center {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid #eee;
+        margin: 1rem 0;
+        padding: 1rem 0;
+    }
+    
+    .post-center:hover {
+        background-color: #eee;    
+    }
+
     .key{
         width: 80px;
         height: 80px;
@@ -571,9 +587,34 @@ export default {
         font-weight: 600;
     }
 
+    .item-title2 {
+        margin: 0.3rem 0;
+        text-decoration: underline;
+        font-size: 1.5rem;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+    }
+
     .sub-text {
         color: #828282;
         font-size: 1rem;
+    }
+
+    .sub-text2 {
+        color: #828282;
+        font-size: 0.9rem;
+    }
+
+    .sub-text-underline {
+        color: #828282;
+        font-size: 0.9rem;
+        text-decoration: underline;
+    }
+
+    .sub-text-small {
+        color: #828282;
+        font-size: 0.8rem;
     }
 
  }
@@ -717,6 +758,20 @@ export default {
         background-color: #eee;    
     }
 
+    .post-center {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid #eee;
+        margin: 1rem 0;
+        padding: 1rem 0;
+    }
+    
+    .post-center:hover {
+        background-color: #eee;    
+    }
+
     .key{
         width: 80px;
         height: 80px;
@@ -734,7 +789,32 @@ export default {
         font-weight: 600;
     }
 
+    .item-title2 {
+        margin: 0.3rem 0;
+        text-decoration: underline;
+        font-size: 1.5rem;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+    }
+
     .sub-text {
+        color: #828282;
+        font-size: 1rem;
+    }
+
+    .sub-text2 {
+        color: #828282;
+        font-size: 1rem;
+    }
+
+    .sub-text-underline {
+        color: #828282;
+        font-size: 1rem;
+        text-decoration: underline;
+    }
+
+    .sub-text-small {
         color: #828282;
         font-size: 1rem;
     }

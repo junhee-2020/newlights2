@@ -20,7 +20,7 @@ export default {
   components: {
     ToolBar,
     MobileToolBar,
-    Spinner,
+    Spinner
   },
   data() {
     return {
